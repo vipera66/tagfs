@@ -1,0 +1,38 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/TagFS/TagFileSystem.cs">
+    <Files>
+      <File FileName="../mono-fuse-0.4.2/example/RedirectFS/RedirectFS.cs" Line="63" Column="1" />
+      <File FileName="../mono-fuse-0.4.2/example/HelloFS/HelloFS.cs" Line="78" Column="41" />
+      <File FileName="src/TagFS/TagFileSystem.cs" Line="96" Column="13" />
+      <File FileName="src/TagFS/Main.cs" Line="31" Column="1" />
+      <File FileName="src/TagFS/TagDictionary.cs" Line="17" Column="1" />
+      <File FileName="src/TagFS/Tag.cs" Line="17" Column="3" />
+      <File FileName="src/TagFS/AssemblyInfo.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="TagFS" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="TagFileSystem.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/viperx/src/TagFS/Main.cs" line="41" />
+      <Breakpoint file="/home/viperx/src/TagFS/Main.cs" line="46" />
+      <Breakpoint file="/home/viperx/tagfs/src/TagFS/TagFileSystem.cs" line="103" />
+      <Breakpoint file="/home/viperx/tagfs/src/TagFS/TagFileSystem.cs" line="106" />
+      <Breakpoint file="/home/viperx/tagfs/src/TagFS/TagFileSystem.cs" line="102" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

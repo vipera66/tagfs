@@ -19,8 +19,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <PlatformTarget>x86</PlatformTarget>
-    <Commandlineparameters>test .</Commandlineparameters>
+    <Commandlineparameters>test tmp</Commandlineparameters>
     <ConsolePause>false</ConsolePause>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <DebugType>none</DebugType>
@@ -30,17 +31,25 @@
     <WarningLevel>4</WarningLevel>
     <PlatformTarget>x86</PlatformTarget>
     <Externalconsole>true</Externalconsole>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="Mono.Posix" />
     <Reference Include="Mono.Fuse">
-      <HintPath>..\..\..\..\..\usr\lib\mono-fuse\Mono.Fuse.dll</HintPath>
+      <HintPath>..\..\..\mono-fuse-0.4.2\lib\mono-fuse\Mono.Fuse.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="mscorlib">
+      <HintPath>..\..\..\..\..\usr\lib\mono\4.0\mscorlib.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="TagFileSystem.cs" />
+    <Compile Include="TagDictionary.cs" />
+    <Compile Include="Tag.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
